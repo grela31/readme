@@ -1,7 +1,7 @@
-# Agenda Jesús Varela Grela
+# Articulos/Categorias Jesús Varela Grela
 
-El proyecto consta de una agenda donde puedes visualizar tus contactos tanto
-perosnales como profesionales también tienes la opción de agregar, editar, ver y eliminar los contactos que estan guardados en la base de datos
+El proyecto consta de una pagina web donde puedes visualizar articulos y categorias 
+ también tienes la opción de agregar un articulo o editar uno ya creado y eliminar los que estan guardados en la base de datos
 
 ## Instrucciones
 
@@ -11,7 +11,7 @@ Despues tendremos que escribir en el navegador localhost:8000/ y tendremos que n
     • El botón agregar añadirá datos a la base de datos
     •  El botón borrar borrara los datos
     • El botón ver te permitirá ver con mas detalles los datos.
-Si clicamos en alguna de las agendas nos dejara visualizar.
+Si clicamos en alguno de los articulos nos dejara visualizar.
 
 
 ### Pre-requisitos 
@@ -30,7 +30,7 @@ Colocaremos  la carpeta el proyecto en la ruta:
 
 C:/xampp/htdocs
 
-Crear la base de datos(poner nombre contacto)
+Crear la base de datos(poner nombre categoria)
 php bin/console doctrine:database:create
 
 Actualizarla
@@ -47,7 +47,7 @@ localhost:8000/
 
 ## Ejecutando las pruebas 
 
-Si agregamos un contacto debería poder observarse en las agendas pertinentes y si editamos observaremos los cambios y al borrar deberia desaparecer.
+Si agregamos un articulo debería poder observarse en la categoria pertinente y si editamos observaremos los cambios y al borrar deberia desaparecer.
 
 ### Tecnologias Utilizadas
 
