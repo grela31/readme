@@ -17,7 +17,7 @@ Si clicamos en alguno de los articulos nos dejara visualizar.
 ### Pre-requisitos 
 
     • XAMMP : Carpeta en ruta de xampp | C:/xampp/htdocs
-    • SYMFONY : php bin/console doctrine:database:create(poner nombre contacto)  | php bin/console doctrine:schema:update –force
+    • SYMFONY : php bin/console doctrine:database:create | php bin/console doctrine:schema:update –force
     • CMD :  Ruta del proyecto | symfony server:start
 
 ```
